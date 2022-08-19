@@ -21,7 +21,7 @@ export default class Plugin {
         registry.registerRootComponent(TextCaptureModal);
 
         registry.registerFileUploadMethod(
-            <i className='icon fa fa-paint-brush'/>,
+            <i className='icon fa fa-file-code-o'/>,
             (uploadFiles: (files: File[]) => void) => {
                 const action: OpenTextInputModalAction = {
                     type: ActionTypes.OPEN_TEXT_INPUT_MODAL,
